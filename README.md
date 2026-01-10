@@ -56,9 +56,8 @@ InvoiceAI is a modern AI-powered invoicing web application that helps businesses
 
 > Professional invoice creation in seconds with AI-powered extraction and real-time calculations.
 
-![InvoiceAI UI Preview](./assets/invoice-preview.png)
-
 ---
 
 ## 📂 Project Structure
+
 
