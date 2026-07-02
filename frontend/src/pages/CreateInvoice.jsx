@@ -9,7 +9,7 @@ import {
 } from "../assets/dummyStyles";
 
 /* ---------- API BASE ---------- */
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://invoice-ai-kp7i.onrender.com";
 
 /* ---------- storage helpers (unchanged) ---------- */
 /* ----------------- frontend-only: normalize image URLs ----------------- */

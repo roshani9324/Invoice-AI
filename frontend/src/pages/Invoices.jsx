@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { invoicesStyles } from "../assets/dummyStyles";
 import { useAuth } from "@clerk/clerk-react";
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://invoice-ai-kp7i.onrender.com";
 
 /* ---------- helpers ---------- */
 /* ----------------- frontend-only: normalize image URLs ----------------- */

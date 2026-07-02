@@ -6,7 +6,7 @@ import {
 } from "../assets/dummyStyles";
 
 import { useAuth, useUser } from "@clerk/clerk-react";
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://invoice-ai-kp7i.onrender.com";
 const UploadIcon = ({ className = "w-5 h-5" }) => (
   <svg
     className={className}
