@@ -1,3 +1,7 @@
+
+import dns from "node:dns";
+
+dns.setServers(["8.8.8.8", "1.1.1.1"]);
 import express from 'express';
 import cors from 'cors';
 import 'dotenv/config.js';
@@ -7,6 +11,7 @@ import invoiceRouter from './routes/invoiceRouter.js';
 import businessProfileRouter from './routes/businessProfileRouter.js';
 import aiInvoiceRouter from './routes/aiInvoiceRouter.js';
 import path from 'path'
+
 
 
 
@@ -26,7 +31,9 @@ app.use(express.urlencoded({limit:"20mb", extended:true}));
 
 
 //DB
+
 connectDB();
+
 
 
 
@@ -44,4 +51,5 @@ app.get('/',(req,res)=>{
 
 app.listen(port,()=>{
     console.log(`Server is running on port ${port}`);
+   
 })
